@@ -1,0 +1,11 @@
+%% Feel free to use, reuse and abuse the code in this file.
+
+{application, re_utils, [
+	{description, "Re helper utils for erlang re modules."},
+	{vsn, "0.1"},
+	{modules, []},
+	{applications, [
+		kernel,
+		stdlib
+	]}
+]}.
